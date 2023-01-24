@@ -30,6 +30,7 @@ table{
     margin: 0 auto;
     width: 60%;
     position: static;
+    border-collapse: collapse;
     
 }
 thead{
@@ -39,19 +40,21 @@ thead{
     font-size: 25px;
     letter-spacing: 2px;
     color: black;
+
 }
 th, td {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Courier', sans-serif;
     padding: 20px;
     text-align: left;
     width:20%;
     font-size: 18px;
     text-align: center;
-    border: 0.1px solid rgb(129, 129, 129);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 2px;
+    max-width: 700px;  
   }
 
+  
 li{
     padding: 20px;
     margin: 0;
@@ -75,4 +78,9 @@ li:hover{
 }
 li:active{
     background-color: rgb(255, 0, 76);
+}
+
+.only{
+    background-color: rgb(184, 135, 244);
+    color: black;
 }
