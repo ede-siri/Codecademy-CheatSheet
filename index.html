@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title> CSS Syntax</title>
-        <link rel="stylesheet" href="hhttps://github.com/ede-siri/ede-siri.github.io/blob/c4cc975fac676068168e54b27f9c95a6533e8fce/style.css">
+        <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
@@ -147,9 +146,68 @@
                             <td>Table Footer</td>
                             <td>For creating a table's footers</td>
                         </tr>
+
+                    </tbody>
+                </table></div>
+                <h1>Forms</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Tag</td>
+                            <td>Name</td>
+                            <td colspan="2">Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">&lt;form&gt;</td>
+                            <td>action</td>
+                            <td colspan="2">Where to send your form inputs. Add destination url</td>
+                        </tr>
+                        <tr>
+                            <td>method</td>
+                            <td colspan="2">tells the form what to do with that information once it’s sent.
+                             Uses HTTP verb such as "POST" and "PUT"</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="8">&lt;input&gt;</td>
+                            <td rowspan="4">type</td>
+                            <td colspan="2"> Type of input such as:</td> 
+                        </tr>
+                        <tr>
+                            <td>text</td>
+                            <td>a simple textbook</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>a textbox that hides the input values in *astericks</td>
+                        </tr>
+                        <tr>
+                            <td>number</td>
+                            <td>textbox that reads numbers with option to add on the step attribute</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">id</td>
+                            <td>range</td>
+                            <td>slider type with option to add min, max and step attribute</td>
+                        </tr>
+                        <tr>
+                            <td>id of the table>
+                            <td>creates a submit button</td>
+                        </tr>
+                        <td>name</td>
+                        <td colspan="2">Description of the input value such as "username". 
+                            When sent, it will be displayed as name=value</td>
+                            <tr>
+                                <td>value</td>
+                                <td colspan="2">Value of the input. If you want to pre-fill the input, define a value</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4" class="only">Other information</th>
+                            </tr>
+
+
                     </tbody>
                 </table>
-
-            </div>
     </body>
 </html>
