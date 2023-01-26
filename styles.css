@@ -19,6 +19,18 @@ h1{
     justify-content: center;
    
 }
+.breadcrumbs, .breadcrumb{
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    width: 56%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 8px solid aqua;
+    border-radius: 10px;
+    font-family: 'Courier';
+    text-align: center;
+}
 ul{
     padding: 0;
     margin: 0;
