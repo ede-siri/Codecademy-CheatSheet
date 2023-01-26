@@ -206,8 +206,97 @@
                                 <th colspan="4" class="only">Other information</th>
                             </tr>
 
-
                     </tbody>
                 </table>
+    </table>
+                <h1>Links and Buttons</h1>
+                <table class = "red">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> &lt;title&gt;</td>
+                            <td>Tooltip</td>
+                            <td>When a user hovers their cursor over an element, 
+                                the text will appear in a small box near the cursor.It is placed in the 
+                                &lt;a&gt; tag</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Link states</td>
+                            <td>:link</td>
+                            <td>Not clicked</td>
+                        </tr>
+                        <tr>
+                            <td>:hover</td>
+                            <td>when a mouse hovers</td>
+                        </tr>
+                        <tr>
+                            <td>:active</td>
+                            <td>A clicked link</td>
+                        </tr>
+                        <tr>
+                            <td>:visited</td>
+                            <td>A visited link</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Buttons</td>
+                            <td rowspan="2"> Box Shadow</td>
+                            <td>box-shadow</td>  
+                        </tr>
+                        <tr>
+                            <td>The box shadow should have an x and y offset</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Box Radius </td>
+                            <td>box-radius</td>
+                        </tr>
+                        <tr>
+                            <td>To add curves to the edges on box in px</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <div>
+                <h1>Secondary Navigation/Breadcrumbs</h2>
+                <p class="breadcrumbs unique">Secondary navigation, or breadcrumb navigation, 
+                    usually consists of a clickable list of pages or attributes that led to the 
+                    current page. It can help users understand the extent of the site and also 
+                    where they are currently. <br>Think about the story of Hansel and Gretel,
+                     where the kids drop breadcrumbs as they walked in the woods so that 
+                    they would be able to find their way back. Users expect to find them in the header, left-aligned, and below any primary navigation. 
+                    Typically they are separated with a “>” or a “/“ symbol. <br>
+                    <strong>.breadcrumb li+li::before <br>content: "/";</strong></p>
+                    <p class="breadcrumbs unique">The + is called the adjacent sibling combinator; it will only select two li‘s when they are immediately next to each other, with the same parent. 
+                        The element that actually gets selected is the second element 
+                        of this sibling pair.</p>
+                        <p class="breadcrumbs unique">The :: before part of this selector creates a pseudo-element. 
+                            The ::before pseudo-element is often used with the content property, 
+                            to add content that will be 
+                            displayed just before the selected element.</p>
+                        </div>
+                            <div>
+                            <ul class="breadcrumb">
+                                <li>
+                                  <a href="shopping">Shopping</a>
+                                </li>
+                                <li>
+                                  <a href="fashion">Fashion</a>
+                                </li>
+                                <li>
+                                  <a href="shoes">Shoes</a>
+                                </li>
+                                <li>
+                                  <a href="flats">Flats</a>
+                                </li>
+                                <li>
+                                  <a href="brown">Brown</a>
+                                </li>
+                              </ul>
+                </div>
     </body>
 </html>
