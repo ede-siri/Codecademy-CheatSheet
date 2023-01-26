@@ -10,14 +10,18 @@ body{
 h1{
     text-align: center;
     font-size: 50px;
+    
 }
+
 .navigation{
     box-sizing: border-box;
     background-color: aqua;
     color: black;
     display: flex;
     justify-content: center;
-   
+    width: 100%;
+    padding-top: 0;
+    z-index: 10;
 }
 .breadcrumbs, .breadcrumb{
     background-color: white;
@@ -52,6 +56,7 @@ thead{
     font-size: 25px;
     letter-spacing: 2px;
     color: black;
+    
 
 }
 th, td {
@@ -81,7 +86,7 @@ li{
 td:hover{
     background-color: rgb(255, 0, 255);
 }
-li:hover{
+.navigation li:hover{
     background-color: white
 }
 
@@ -96,6 +101,7 @@ li:active{
     background-color: rgb(184, 135, 244);
     color: black;
 }
+
 /*  Breadcrumbs  */
 .breadcrumb{
     margin: 0 auto;
@@ -149,3 +155,6 @@ li:active{
 {
     border: 8px solid rgb(248, 106, 241);
 }
+
+  
+  
